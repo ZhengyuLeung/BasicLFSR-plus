@@ -111,7 +111,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <th rowspan="2" style="text-align:center">#Params.</th>
       <th colspan="2" style="text-align:center">Synthetic Test Sets</th>
       <th colspan="3" style="text-align:center">Real-World Test Sets</th>
-      <th rowspan="2">Results</th>
     </tr>
     <tr>
       <th>HCInew</th>
@@ -130,7 +129,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>37.49/0.9839</td>
       <td>33.45/0.9689</td>
       <td>35.10/0.9709</td>
-      <td> </td>
     </tr>
     <tr>
       <td>LFASR-geo</td>
@@ -140,7 +138,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>38.45/0.9853</td>
       <td>35.28/0.9795</td>
       <td>35.46/0.9739</td>
-      <td> </td>
     </tr>
     <tr>
       <td>FS-GAF</td>
@@ -150,7 +147,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>40.52/0.9918</td>
       <td>36.77/0.9849</td>
       <td>36.84/0.9777</td>
-      <td> </td>
     </tr>
     <tr>
       <td>Yeung2018</td>
@@ -160,7 +156,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>42.21/0.9933</td>
       <td>38.09/0.9872</td>
       <td>38.35/0.9802 </td>
-      <td> </td>
     </tr>
     <tr>
       <td>Pseudo4DCNN</td>
@@ -170,7 +165,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>38.20/0.9758 </td>
       <td>35.55/0.9756</td>
       <td>37.18/0.9745</td>
-      <td> </td>
     </tr>
     <tr>
       <td>P4DCNN</td>
@@ -180,7 +174,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>39.75/0.9860</td>
       <td>36.52/0.9813</td>
       <td>37.56/0.9764</td>
-      <td> </td>
     </tr>
     <tr>
       <td>SAA-Net</td>
@@ -190,7 +183,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>39.77/0.9921</td>
       <td>36.68/0.9850</td>
       <td>37.42/0.9775</td>
-      <td> </td>
     </tr>
     <tr>
       <td>DistgASR</td>
@@ -200,7 +192,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>43.49/0.9952</td>
       <td>39.41/0.9905</td>
       <td>39.15/0.9797</td>
-      <td> </td>
     </tr>
     <tr>
       <td>LFSAV</td>
@@ -210,7 +201,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>42.72/0.9941</td>
       <td>38.52/0.9884</td>
       <td>38.75/0.9817</td>
-      <td> </td>
     </tr>
     <tr>
       <td>LF-EASR</td>
@@ -220,7 +210,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>41.47/0.9918</td>
       <td>37.65/0.9863</td>
       <td>38.21/0.9794</td>
-      <td> </td>
     </tr>
     <tr>
       <td>EPIT-ASR</td>
@@ -230,7 +219,6 @@ The metric score for each scene was by averaging the scores of reconstructed vie
       <td>43.54/0.9951</td>
       <td>39.43/0.9907</td>
       <td>39.19/0.9809</td>
-      <td> </td>
     </tr>
   </tbody>
 </table>
