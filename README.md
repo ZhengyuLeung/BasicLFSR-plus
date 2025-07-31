@@ -11,7 +11,7 @@ This repository provides an enhanced and unified toolbox for Light Field (LF) Im
 This is an extension of our previous work, **[BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR)**, which focused solely on spatial SR. 
 It has proven to be a helpful toolbox for researchers to quickly get started with LF spatial SR and to facilitate the development of new algorithms. 
 
-Looking ahead, **[BasicLFSR-plus](https://github.com/ZhengyuLeung/BasicLFSR-plus)**, together with our **[BasicLFDisp](https://github.com/yourname/BasicLFDisp)** repository for LF disparity estimation, aims to provide a more comprehensive and user-friendly benchmark toolbox for the LF research community. 
+Looking ahead, **[BasicLFSR-plus](https://github.com/ZhengyuLeung/BasicLFSR-plus)**, together with our **[BasicLFDisp](https://github.com/ZhengyuLeung/BasicLFDisp)** repository for LF disparity estimation, aims to provide a more comprehensive and user-friendly benchmark toolbox for the LF research community. 
 
 ## ✨ News & Updates
 
