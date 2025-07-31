@@ -152,7 +152,7 @@ To obtain the metric score for a dataset with `M` scenes, we first calculate the
 
 
 ## ⬇️ Recources
-* The pre-trained models of the aforementioned methods can be downlaoded via [this link](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EtUBJ4eHG7BCjnUmtXpu9o0BvGVk5_v-RG95R_aRN46UwQ).
+* The pre-trained models of the aforementioned methods can be downlaoded via [this link](https://github.com/ZhengyuLeung/BasicLFSR-plus/releases).
 
 
 

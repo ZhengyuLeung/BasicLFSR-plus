@@ -222,16 +222,12 @@ The metric score for each scene was by averaging the scores of reconstructed vie
     </tr>
   </tbody>
 </table>
-
-
-
-
 </details>
 
 
 
 ## ⬇️ Recources
-* The pre-trained models of the aforementioned methods can be downlaoded via [this link]().
+* The pre-trained models of the aforementioned methods can be downlaoded via [this link](https://github.com/ZhengyuLeung/BasicLFSR-plus/releases).
 
 
 
