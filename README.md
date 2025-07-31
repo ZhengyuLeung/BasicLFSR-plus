@@ -31,8 +31,8 @@ To get started with a specific task, please  refer to the corresponding README:
 
 | Task  | Description | Instructions |
 |---------|-------------|-------------|
-| `lfssr` | Code, models and pretrained weights for **LF spatial SR** | See [`README_LFSSR`](https://github.com/ZhengyuLeung/BasicLFSR-plus//README_LFSSR.md) |
-| `lfasr` | Code, models and pretrained weights for **LF angular SR** | See [`README_LFASR`](https://github.com/ZhengyuLeung/BasicLFSR-plus/README_LFASR.md) |
+| `lfssr` | Code, models and pretrained weights for **LF spatial SR** | See [`README_LFSSR`](https://github.com/ZhengyuLeung/BasicLFSR-plus/blob/main/README_LFSSR.md) |
+| `lfasr` | Code, models and pretrained weights for **LF angular SR** | See [`README_LFASR`](https://github.com/ZhengyuLeung/BasicLFSR-plus/blob/main/README_LFASR.md) |
 
 
 
