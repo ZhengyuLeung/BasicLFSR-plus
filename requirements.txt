@@ -1,0 +1,18 @@
+# Core Framework
+torch>=2.1.0
+torchvision
+numpy
+scipy
+
+# Configuration
+imageio
+tqdm
+einops
+openpyxl
+lpips
+pyiqa
+matplotlib
+mamba-ssm
+scikit-image
+h5py
+
