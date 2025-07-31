@@ -1,5 +1,5 @@
-# 🧩 BasicLFSR-plus: LFSSR Branch
-This branch contains the implementation of Light Field (LF) Spatial Super-Resolution (SR) based on our BasicLFSR-plus framework.
+# 🧩 BasicLFSR-plus: LFSSR track
+This track contains the implementation of Light Field (LF) Spatial Super-Resolution (SR) based on our BasicLFSR-plus framework.
 
 
 ## 📂 Dataset Preparation
@@ -29,11 +29,11 @@ Run `Generate_Data_for_SSR_Test.py` to generate test data. The generated data wi
 
 ## 🚀 Training
 
-Modify the configs in `train.py` or use default arguments.
+Modify the configs in `train_SSR.py` or use default arguments.
 
 ```
-$ python train.py --model_name [model_name] --angRes 5 --scale_factor 2 --batch_size 8
-$ python train.py --model_name [model_name] --angRes 5 --scale_factor 4 --batch_size 4
+$ python train_SSR.py --model_name [model_name] --angRes 5 --scale_factor 2 --batch_size 8
+$ python train_SSR.py --model_name [model_name] --angRes 5 --scale_factor 4 --batch_size 4
 ```
 
 Checkpoints and Logs will be saved to `./log/`, and the `./log/` has the following structure:
@@ -61,10 +61,10 @@ log/
 
 ## 🧪 Test
 
-Run `test.py` to perform network inference. Example for test [model_name] on 5x5 angular resolution for 2x/4xSR:
+Run `test_SSR.py` to perform network inference. Example for test [model_name] on 5x5 angular resolution for 2x/4xSR:
 ```
-$ python test.py --model_name [model_name] --angRes 5 --scale_factor 2  
-$ python test.py --model_name [model_name] --angRes 5 --scale_factor 4 
+$ python test_SSR.py --model_name [model_name] --angRes 5 --scale_factor 2  
+$ python test_SSR.py --model_name [model_name] --angRes 5 --scale_factor 4 
 ```
 
 The PSNR and SSIM values of each dataset will be saved to **`./log/`**, and the **`./log/`** has the following structure:
