@@ -5,3 +5,4 @@ log/*
 *.pt
 *.h5
 *.tar
+.DS_Store
