@@ -126,17 +126,17 @@ def cal_metrics(args, label, out, bd=0):
     for b in range(B):
         for u in range(U):
             for v in range(V):
-                PSNR[b, u, v] = cal_PSNR(label[b, u, v, bd:H-bd, bd:H-bd].numpy(), out[b, u, v, bd:H-bd, bd:H-bd].numpy())
+                PSNR[b, u, v] = cal_PSNR(label[b, u, v, bd:H-bd, bd:W-bd].numpy(), out[b, u, v, bd:H-bd, bd:W-bd].numpy())
                 if 'SSR' in args.task:
-                    SSIM[b, u, v] = cal_SSIM(label[b, u, v, bd:H-bd, bd:H-bd].numpy(), out[b, u, v, bd:H-bd, bd:H-bd].numpy(),
+                    SSIM[b, u, v] = cal_SSIM(label[b, u, v, bd:H-bd, bd:W-bd].numpy(), out[b, u, v, bd:H-bd, bd:W-bd].numpy(),
                                              data_range=2, gaussian_weights=True)
-                    LPIPS[b, u, v] = calculate_lpips(label[b, u, v, bd:H - bd, bd:H - bd].unsqueeze(0),
-                                                     out[b, u, v, bd:H - bd, bd:H - bd].unsqueeze(0))
+                    LPIPS[b, u, v] = calculate_lpips(label[b, u, v, bd:H - bd, bd:W - bd].unsqueeze(0),
+                                                     out[b, u, v, bd:H - bd, bd:W - bd].unsqueeze(0))
                 elif args.task == 'ASR':
-                    SSIM[b, u, v] = cal_SSIM(label[b, u, v, bd:H-bd, bd:H-bd].numpy(), out[b, u, v, bd:H-bd, bd:H-bd].numpy(),
+                    SSIM[b, u, v] = cal_SSIM(label[b, u, v, bd:H-bd, bd:W-bd].numpy(), out[b, u, v, bd:H-bd, bd:W-bd].numpy(),
                                              gaussian_weights=True, sigma=1.5, use_sample_covariance=False)
-                    LPIPS[b, u, v] = calculate_lpips(label[b, u, v, bd:H-bd, bd:H-bd].unsqueeze(0),
-                                                     out[b, u, v, bd:H-bd, bd:H-bd].unsqueeze(0))
+                    LPIPS[b, u, v] = calculate_lpips(label[b, u, v, bd:H-bd, bd:W-bd].unsqueeze(0),
+                                                     out[b, u, v, bd:H-bd, bd:W-bd].unsqueeze(0))
 
     if args.task=='ASR':
         for u in range(0, args.angRes_out, (args.angRes_out - 1) // (args.angRes_in - 1)):
