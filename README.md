@@ -55,7 +55,7 @@ Welcome to raise issues or email to [zyliang@nudt.edu.cn](zyliang@nudt.edu.cn) f
 ## 📝 Citation
 ```
 @article{EPIT2026,
- title = {Visible-Thermal Tiny Object Detection: A Benchmark Dataset and Baselines},
+ title = {Diving into Epipolar Transformers for Light Field Super-Resolution and Disparity Estimation},
  author = {Liang, Zhengyu and Wang, Yingqian and Wang, Longguang and Yang, Jungang and Guo, Yulan and Liu, Li and Zhou, Shilin and An, Wei},
  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
  year = {2026},
