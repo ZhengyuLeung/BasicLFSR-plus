@@ -3,6 +3,8 @@
 
 ### <img src="https://raw.github.com/ZhengyuLiang24/BasicLFSR/main/figs/Thumbnail.jpg" width="1000">
 
+Official PyTorch implementation of the IEEE TPAMI 2026 paper: "Diving into Epipolar Transformers for Light Field Super-Resolution and Disparity Estimation".
+
 This repository provides an enhanced and unified toolbox for Light Field (LF) Image Super-Resolution (SR), supporting both:
 
 - **LFSSR** – LF Spatial SR (improving resolution of each sub-view image)
@@ -14,6 +16,9 @@ It has proven to be a helpful toolbox for researchers to quickly get started wit
 Looking ahead, **[BasicLFSR-plus](https://github.com/ZhengyuLeung/BasicLFSR-plus)**, together with our **[BasicLFDisp](https://github.com/ZhengyuLeung/BasicLFDisp)** repository for LF disparity estimation, aims to provide a more comprehensive and user-friendly benchmark toolbox for the LF research community. 
 
 ## ✨ News & Updates
+
+- **[2026-03]** 🎉 Our paper **"Diving into Epipolar Transformers for Light Field Super-Resolution and Disparity Estimation"** has been accepted by *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*!
+- **[2025-08]** 🚀 We have released the **BasicLFSR-plus** and **BasicLFDisp** toolbox, and provided the pre-trained models of our **EPIT** mechanism (i.e., EPIT-SSR, EPIT-ASR, and EPIT-Disp).
 
 
 ## 🔧 Installation
@@ -48,4 +53,11 @@ Welcome to raise issues or email to [zyliang@nudt.edu.cn](zyliang@nudt.edu.cn) f
 
 
 ## 📝 Citation
-
+```
+@article{EPIT2026,
+ title = {Visible-Thermal Tiny Object Detection: A Benchmark Dataset and Baselines},
+ author = {Liang, Zhengyu and Wang, Yingqian and Wang, Longguang and Yang, Jungang and Guo, Yulan and Liu, Li and Zhou, Shilin and An, Wei},
+ journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+ year = {2026},
+}
+```
