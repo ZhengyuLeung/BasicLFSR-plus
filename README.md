@@ -53,6 +53,7 @@ Welcome to raise issues or email to [zyliang@nudt.edu.cn](zyliang@nudt.edu.cn) f
 
 
 ## 📝 Citation
+If you find this code or our paper useful for your research, please consider citing:
 ```
 @article{EPIT2026,
  title = {Diving into Epipolar Transformers for Light Field Super-Resolution and Disparity Estimation},
